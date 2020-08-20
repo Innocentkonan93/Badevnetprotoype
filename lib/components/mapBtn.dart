@@ -14,7 +14,7 @@ class MapBtn extends StatelessWidget {
         Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => MapScreen(),
+              builder: (context) => MapItem(),
             ));
       },
       child: Container(
